@@ -1,0 +1,338 @@
+* {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  /* background-color: #fbf8f8; */
+}
+.beautiful-underline {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #6ec71d;
+}
+
+.beautiful-underline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #6ec71d;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: center bottom;
+  transition: transform 0.3s ease-in-out;
+}
+
+.beautiful-underline:hover::before {
+  transform: scaleX(1);
+}
+
+.beautiful-underline::after {
+  content: "";
+  position: absolute;
+  width: 20px; /* Adjust the width of the line as needed */
+  height: 2px;
+  background-color: #6ec71d;
+  bottom: -6px; /* Adjust the vertical position of the line as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.beautiful-underline::before::before {
+  content: "\2605";
+  font-size: 18px;
+  position: absolute;
+  bottom: -16px; /* Adjust the vertical position of the star as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.color_change {
+  position: relative;
+  display: inline-block;
+}
+
+.color_change::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the underline here */
+  background-color: #6ec71d; /* Adjust the color of the underline here */
+  transform: scaleX(0); /* Initially, the underline is invisible */
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.color_change:hover::before {
+  transform: scaleX(1); /* When hovered, make the underline visible */
+}
+
+.color_change_blue {
+  position: relative;
+  display: inline-block;
+  color: #075890;
+  cursor: pointer;
+}
+
+.color_change_blue::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the underline here */
+  background-color: #075890; /* Adjust the color of the underline here */
+  transform: scaleX(0); /* Initially, the underline is invisible */
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.color_change_blue:hover::before {
+  transform: scaleX(1); /* When hovered, make the underline visible */
+}
+
+.with_zero {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .with_zero {
+    width: auto;
+  }
+}
+.card_service {
+  border-top-right-radius: 10px 10px;
+  border-top-left-radius: 50px 50px;
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 50px 50px;
+  box-shadow: 2px 2px 15px 2px #ccc;
+  border-color: white;
+}
+.card_service:hover {
+  border-top-right-radius: 50px 50px;
+  border-top-left-radius: 10px 10px;
+  border-bottom-left-radius: 50px 50px;
+  border-bottom-right-radius: 5px 5px;
+  box-shadow: 2px 2px 15px 2px #6ec71d;
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.button {
+  transition: 0.8s ease;
+  background-color: #6ec71d;
+  color: white;
+  font-size: 14px;
+  border-radius: 2rem;
+}
+
+.button:hover {
+  transition: 0.8s ease;
+  border-color: white;
+  background-color: #01a2fd;
+  color: white;
+  font-size: 14px;
+}
+.beautiful-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.flip-card {
+  background-color: transparent;
+  /* width: 300px; */
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #075890;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: white;
+  color: white;
+  transform: rotateY(180deg);
+  border-style: solid;
+  border-color: #757678;
+}
+.float_card {
+  position: relative;
+  margin-top: -100px;
+  z-index: 9999;
+}
+@media only screen and (max-width: 768px) {
+  .float_card {
+    margin-top: 0;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: #fff;
+  background: #ff7979;
+}
+.wrapper {
+  max-width: 1080px;
+  margin: 50px auto;
+  padding: 0 20px;
+  position: relative;
+}
+.wrapper .center-line {
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  background: #01a2fd;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+}
+.wrapper .row {
+  display: flex;
+}
+.wrapper .row-1 {
+  justify-content: flex-start;
+}
+.wrapper .row-2 {
+  justify-content: flex-end;
+}
+.wrapper .row section {
+  background: #fff;
+  border-radius: 5px;
+  width: calc(50% - 40px);
+  padding: 20px;
+  position: relative;
+  border-radius: 66px;
+  border: solid #01a2fd;
+}
+.wrapper .row section::before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  top: 28px;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+.row-1 section::before {
+  right: -7px;
+}
+.row-2 section::before {
+  left: -7px;
+}
+.row section .icon,
+.center-line .scroll-icon {
+  position: absolute;
+  background: #01a2fd;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ff7979;
+  font-size: 17px;
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.center-line .scroll-icon {
+  bottom: 0px;
+  left: 50%;
+  font-size: 25px;
+  transform: translateX(-50%);
+}
+.row-1 section .icon {
+  top: 15px;
+  right: -60px;
+}
+.row-2 section .icon {
+  top: 15px;
+  left: -60px;
+}
+.row section .details,
+.row section .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row section .details .title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.row section p {
+  margin: 10px 0 17px 0;
+}
+.row section .bottom a {
+  text-decoration: none;
+  background: #ff7979;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 5px;
+  /* font-size: 17px; */
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.row section .bottom a:hover {
+  transform: scale(0.97);
+}
+@media (max-width: 790px) {
+  .wrapper .center-line {
+    left: 40px;
+  }
+  .wrapper .row {
+    margin: 30px 0 3px 60px;
+  }
+  .wrapper .row section {
+    width: 100%;
+  }
+  .row-1 section::before {
+    left: -7px;
+  }
+  .row-1 section .icon {
+    left: -60px;
+  }
+}
+@media (max-width: 440px) {
+  .wrapper .center-line,
+  .row section::before,
+  .row section .icon {
+    display: none;
+  }
+  .wrapper .row {
+    margin: 10px 0;
+  }
+}
