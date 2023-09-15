@@ -51,6 +51,7 @@
 .color_change {
   position: relative;
   display: inline-block;
+  color: #075890;
 }
 
 .color_change::before {
@@ -60,7 +61,7 @@
   left: 0;
   width: 100%;
   height: 2px; /* Adjust the thickness of the underline here */
-  background-color: #6ec71d; /* Adjust the color of the underline here */
+  background-color: #075890; /* Adjust the color of the underline here */
   transform: scaleX(0); /* Initially, the underline is invisible */
   transform-origin: bottom left;
   transition: transform 0.3s ease-in-out;
@@ -115,7 +116,7 @@
   border-top-left-radius: 10px 10px;
   border-bottom-left-radius: 50px 50px;
   border-bottom-right-radius: 5px 5px;
-  box-shadow: 2px 2px 15px 2px #6ec71d;
+  box-shadow: 2px 2px 15px 2px #075890;
   transform: translateY(-20px);
   cursor: pointer;
 }
@@ -216,7 +217,7 @@ html {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #01a2fd;
+  background: #075890;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -237,7 +238,7 @@ html {
   padding: 20px;
   position: relative;
   border-radius: 66px;
-  border: solid #01a2fd;
+  border: solid #075890;
 }
 .wrapper .row section::before {
   position: absolute;
@@ -258,7 +259,7 @@ html {
 .row section .icon,
 .center-line .scroll-icon {
   position: absolute;
-  background: #01a2fd;
+  background: #075890;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -335,4 +336,205 @@ html {
   .wrapper .row {
     margin: 10px 0;
   }
+}
+
+.bg_blue_text_white {
+  background-color: #075890;
+  color: white;
+}
+.bg_white_text_blue {
+  background-color: white;
+  color: #075890;
+}
+
+.point-list {
+  list-style: none;
+  padding: 0;
+}
+
+.point-list li {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #6ec71d;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-service {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-service img {
+  width: 100px;
+  height: 72px;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #6ec71d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #4b971d;
+}
+
+.point-list {
+  list-style: none;
+  padding: 0;
+}
+
+.point-list li {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #6ec71d;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-service {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-service img {
+  width: 100px;
+  height: 72px;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #6ec71d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #4b971d;
+}
+
+.boder_color_blue {
+  border: solid #075890;
+  border-radius: 10px;
+}
+
+.particles_js_design {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #075890;
+}
+.particles_js_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; /* Adjust the card width as needed */
+  background-color: #075890;
+  border: 0;
+}
+.common-numbers {
+  font-size: 4.8rem;
+}
+
+.section-work-data p {
+  color: black;
+}
+.border_color {
+  border-color: #757678;
+}
+.color_blue {
+  color: #075890;
+}
+
+.circular-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* background-image: url("/assets/img/ProjectSuccessStory/12.png"); */
+  background-size: cover;
+  background-position: center;
+  border: solid #075890;
+}
+
+.circular-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.light_white {
+  background-color: #fbf8f8;
+}
+@keyframes border-move {
+  0% {
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid white; /* Adjust the border color and opacity as needed */
+  }
+  25% {
+    border-top: 5px solid white;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+  }
+  50% {
+    border-top: 5px solid transparent;
+    border-right: 5px solid white;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+  }
+  75% {
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+    border-left: 5px solid transparent;
+  }
+  100% {
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid white; /* Adjust the border color and opacity as needed */
+  }
+}
+
+/* Apply the animation to the image */
+.border-moving-image {
+  animation: border-move 4s linear infinite;
+}
+/* Define the initial state for the image */
+.zoom-image {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Apply the zoom effect on hover */
+.zoom-image:hover {
+  transform: scale(1.05); /* Zoom in to 110% size on hover */
+}
+.all_analysis_card {
+  width: 400px;
+  border-radius: 20px;
+  border: solid #075890;
 }

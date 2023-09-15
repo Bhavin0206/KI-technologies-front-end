@@ -11,6 +11,20 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+      integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- ------------------------------------navbar------------------------------------ -->
@@ -37,15 +51,45 @@
               <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item me-lg-2 ms-lg-2">
-                    <a class="nav-link color_change" href="javascript:void(0)"
-                      >Home</a
-                    >
+                    <a class="nav-link color_change" href="index.html">Home</a>
                   </li>
-                  <li class="nav-item me-lg-2 ms-lg-2">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle color_change"
+                      href="javascript:void(0)"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      >Services</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="FEA-Consulting-Services.html"
+                          >FEA Consulting Services</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="Electric-Vehicle-Services.html"
+                          >Electric Vehicle Services</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="Trailer-Engineering-Services.html"
+                          >Trailer Engineering Services</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <!-- <li class="nav-item me-lg-2 ms-lg-2">
                     <a class="nav-link color_change" href="javascript:void(0)"
                       >Service</a
                     >
-                  </li>
+                  </li> -->
                   <li class="nav-item me-lg-2 ms-lg-2">
                     <a class="nav-link color_change" href="javascript:void(0)"
                       >Job leading</a
@@ -323,52 +367,8 @@
       </div>
     </div>
     <!-- ------------------------------------end------------------------------------ -->
-
-    <style>
-      /* Custom CSS for improved design */
-      .point-list {
-        list-style: none;
-        padding: 0;
-      }
-
-      .point-list li {
-        margin: 10px 0;
-        padding: 10px 20px;
-        background-color: #6ec71d;
-        color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      }
-
-      .card-service {
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      }
-
-      .card-service img {
-        width: 100px;
-        height: 72px;
-        margin: 20px 0;
-      }
-
-      .button {
-        background-color: #6ec71d;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        text-decoration: none;
-        font-weight: bold;
-      }
-
-      .button:hover {
-        background-color: #4b971d;
-      }
-    </style>
-
     <div class="container-fluid">
-      <div class="row" style="background-color: #6ec71d; color: white">
+      <div class="row bg_blue_text_white">
         <div class="col-md-12">
           <div class="container-fluid my-5">
             <div class="row">
@@ -407,7 +407,7 @@
                 <img
                   class="w-100"
                   style="filter: drop-shadow(5px 5px 10px white)"
-                  src="assets/img/Diffrential.PNG"
+                  src="assets/img/about.jpg"
                 />
                 <!-- src="https://via.placeholder.com/824x552" -->
               </div>
@@ -419,49 +419,6 @@
     </div>
 
     <!-- ------------------------------------------------------------------------------- -->
-
-    <style>
-      /* Custom CSS for improved design */
-      .point-list {
-        list-style: none;
-        padding: 0;
-      }
-
-      .point-list li {
-        margin: 10px 0;
-        padding: 10px 20px;
-        background-color: #6ec71d;
-        color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      }
-
-      .card-service {
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      }
-
-      .card-service img {
-        width: 100px;
-        height: 72px;
-        margin: 20px 0;
-      }
-
-      .button {
-        background-color: #6ec71d;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        text-decoration: none;
-        font-weight: bold;
-      }
-
-      .button:hover {
-        background-color: #4b971d;
-      }
-    </style>
 
     <div class="container-fluid">
       <div class="row">
@@ -475,29 +432,28 @@
               <div class="col-md-12">
                 <div class="row">
                   <div class="col-lg-5 mt-5">
+                    <style>
+                      .bg_img_blue_with_shadow {
+                        filter: drop-shadow(5px 5px 10px #075890);
+                      }
+                    </style>
                     <img
-                      class="w-100"
-                      style="filter: drop-shadow(5px 5px 10px #01a2fd)"
-                      src="./assets/img/Computer-Aided-Engineering-CAE-Services-Portfolio-2.png"
+                      class="w-100 bg_img_blue_with_shadow"
+                      src="./assets/img/section_3/Computer-Aided-Engineering-CAE-Services-Portfolio-2.png"
                       alt="Your Image"
                     />
                   </div>
+
                   <div class="col-lg-7">
                     <div class="container-fluid">
                       <div class="row">
                         <div class="col-md-4">
                           <div class="p-1">
                             <div class="card card-service">
-                              <div
-                                class="card-body"
-                                style="
-                                  border: solid #01a2fd;
-                                  border-radius: 10px;
-                                "
-                              >
+                              <div class="card-body boder_color_blue">
                                 <div class="text-center">
                                   <img
-                                    src="assets/img/static.png"
+                                    src="assets/img/section_3/static.png"
                                     alt="IT Icon"
                                     class="img-fluid"
                                   />
@@ -521,16 +477,10 @@
                         <div class="col-md-4">
                           <div class="p-1">
                             <div class="card card-service">
-                              <div
-                                class="card-body"
-                                style="
-                                  border: solid #01a2fd;
-                                  border-radius: 10px;
-                                "
-                              >
+                              <div class="card-body boder_color_blue">
                                 <div class="text-center">
                                   <img
-                                    src="assets/img/static.png"
+                                    src="assets/img/section_3/static.png"
                                     alt="IT Icon"
                                     class="img-fluid"
                                   />
@@ -555,16 +505,10 @@
                         <div class="col-md-4">
                           <div class="p-1">
                             <div class="card card-service">
-                              <div
-                                class="card-body"
-                                style="
-                                  border: solid #01a2fd;
-                                  border-radius: 10px;
-                                "
-                              >
+                              <div class="card-body boder_color_blue">
                                 <div class="text-center">
                                   <img
-                                    src="assets/img/thermal.png"
+                                    src="assets/img/section_3/thermal.png"
                                     alt="IT Icon"
                                     class="img-fluid"
                                   />
@@ -593,16 +537,10 @@
                         <div class="col-md-4">
                           <div class="p-1">
                             <div class="card card-service">
-                              <div
-                                class="card-body"
-                                style="
-                                  border: solid #01a2fd;
-                                  border-radius: 10px;
-                                "
-                              >
+                              <div class="card-body boder_color_blue">
                                 <div class="text-center">
                                   <img
-                                    src="assets/img/static.png"
+                                    src="assets/img/section_3/static.png"
                                     alt="IT Icon"
                                     class="img-fluid"
                                   />
@@ -628,16 +566,10 @@
                         <div class="col-md-4">
                           <div class="p-1">
                             <div class="card card-service">
-                              <div
-                                class="card-body"
-                                style="
-                                  border: solid #01a2fd;
-                                  border-radius: 10px;
-                                "
-                              >
+                              <div class="card-body boder_color_blue">
                                 <div class="text-center">
                                   <img
-                                    src="assets/img/monitor.png"
+                                    src="assets/img/section_3/monitor.png"
                                     alt="IT Icon"
                                     class="img-fluid"
                                   />
@@ -661,16 +593,10 @@
                         <div class="col-md-4">
                           <div class="p-1">
                             <div class="card card-service">
-                              <div
-                                class="card-body"
-                                style="
-                                  border: solid #01a2fd;
-                                  border-radius: 10px;
-                                "
-                              >
+                              <div class="card-body boder_color_blue">
                                 <div class="text-center">
                                   <img
-                                    src="assets/img/static.png"
+                                    src="assets/img/section_3/static.png"
                                     alt="IT Icon"
                                     class="img-fluid"
                                   />
@@ -702,21 +628,6 @@
       </div>
     </div>
 
-    <style>
-      .common-numbers {
-        font-size: 4.8rem;
-      }
-
-      .section-work-data p {
-        color: black;
-      }
-      .border_color {
-        border-color: #757678;
-      }
-      .color_blue {
-        color: #075890;
-      }
-    </style>
     <br />
     <br />
     <br />
@@ -724,32 +635,9 @@
     <section class="section-work-data section">
       <div class="container-fluid" style="position: relative; height: 400px">
         <!-- Particles-js background -->
-        <div
-          id="particles-js"
-          style="
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            background-color: #6ec71d;
-          "
-        ></div>
-
+        <div id="particles-js" class="particles_js_design"></div>
         <!-- Responsive card -->
-        <div
-          class="card"
-          style="
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100%; /* Adjust the card width as needed */
-            background-color: #6ec71d;
-            border: 0;
-          "
-        >
+        <div class="card particles_js_card">
           <!-- Card content -->
           <div class="container">
             <div class="row text-center">
@@ -855,11 +743,11 @@
               <br />
               <br />
               <center>
-                <h4 class="card-title font-weight-bold text-dark">
+                <h4 class="card-title font-weight-bold color_blue">
                   FEA Expertise
                 </h4>
               </center>
-              <p class="card-text text-dark">
+              <p class="card-text color_blue">
                 <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
                 Highly experience team in FEA , Focus on only FEA/CAE Consulting
                 Services
@@ -880,12 +768,11 @@
               <br />
               <br />
               <center>
-                <h4 class="card-title font-weight-bold text-dark">
+                <h4 class="card-title font-weight-bold color_blue">
                   Project Ownership
                 </h4>
               </center>
-              <p class="card-text text-dark">
-                <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+              <p class="card-text color_blue">
                 We deliver project with complete ownership for all task under
                 one roof.
               </p>
@@ -905,12 +792,11 @@
               <br />
               <br />
               <center>
-                <h4 class="card-title font-weight-bold text-dark">
+                <h4 class="card-title font-weight-bold color_blue">
                   Cost effective
                 </h4>
               </center>
-              <p class="card-text text-dark">
-                <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+              <p class="card-text color_blue">
                 We believe value for money with 100% quality work .
               </p>
               <p></p>
@@ -929,12 +815,11 @@
               <br />
               <br />
               <center>
-                <h4 class="card-title font-weight-bold text-dark">
+                <h4 class="card-title font-weight-bold color_blue">
                   Innovation & Flexibility
                 </h4>
               </center>
-              <p class="card-text text-dark">
-                <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+              <p class="card-text color_blue">
                 We developed right Methodology with innovation & automation for
                 your product , We are very flexible as per client need and we
                 ensure quick response time.
@@ -945,44 +830,8 @@
         </div>
       </div>
     </div>
-    <style>
-      /* Custom CSS to make the image circular and centered */
-      .circular-container {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        /* background-image: url("/assets/img/ProjectSuccessStory/12.png"); */
-        background-size: cover;
-        background-position: center;
-        border: solid #01a2fd;
-      }
 
-      .circular-image {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: cover;
-      }
-    </style>
-
-    <!-- <div class="container mt-3">
-      <h2>Card Image</h2>
-      <p>Image at the top (card-img-top):</p>
-      <div class="card" style="width: 400px">
-        <div class="card-body">
-          <h4 class="card-title text-center">John Doe</h4>
-          <p class="card-text">
-            Some example text some example text. John Doe is an architect and
-            engineer
-          </p>
-          <a href="#" class="btn btn-primary">See Profile</a>
-        </div>
-      </div>
-    </div> -->
-    <div class="container-fluid" style="background-color: #fbf8f8">
+    <div class="container-fluid light_white">
       <div class="row">
         <div class="col-md-12 text-center mt-5">
           <h1 class="text-center color_change">
@@ -992,11 +841,7 @@
         </div>
         <div class="col-md-12">
           <div class="wrapper">
-            <div class="center-line">
-              <!-- <a href="#" class="scroll-icon"
-                ><i class="fas fa-caret-up"></i
-              ></a> -->
-            </div>
+            <div class="center-line"></div>
             <div class="row row-1">
               <section>
                 <i class="icon fas fa-home"></i>
@@ -1015,7 +860,7 @@
                       </div>
                     </div>
                     <div
-                      class="col-md-6 d-flex align-items-center ps-0 pe-0 me-0 ms-0"
+                      class="col-md-6 d-flex align-items-center ps-0 pe-0 me-0 ms-0 color_blue"
                     >
                       TRAILER FEA SIMULATION
                     </div>
@@ -1023,7 +868,7 @@
                 </div>
                 <p></p>
 
-                <ul>
+                <ul class="color_blue">
                   <li>Finite element analysis (FEA).</li>
                   <li>Details Meshing, welding & bolts.</li>
                   <li>
@@ -1055,7 +900,7 @@
                       </div>
                     </div>
                     <div
-                      class="col-md-6 d-flex align-items-center ps-0 pe-0 me-0 ms-0"
+                      class="col-md-6 d-flex align-items-center ps-0 pe-0 me-0 ms-0 color_blue"
                     >
                       TRAILER FEA LOAD CASES
                     </div>
@@ -1063,7 +908,7 @@
                 </div>
                 <p></p>
 
-                <ul>
+                <ul class="color_blue">
                   <li>
                     Longitudinal Tension and Compression for trailers up to 23.5
                     tonnes 'ATM'
@@ -1095,7 +940,7 @@
                       </div>
                     </div>
                     <div
-                      class="col-md-6 d-flex align-items-center ps-0 pe-0 me-0 ms-0"
+                      class="col-md-6 d-flex align-items-center ps-0 pe-0 me-0 ms-0 color_blue"
                     >
                       CLIENT FEEDBACK
                     </div>
@@ -1103,7 +948,7 @@
                 </div>
                 <p></p>
 
-                <p>
+                <p class="color_blue">
                   Tell your engineers... Overall I am extremely happy with the
                   quality of work. Keep up the good job!
                 </p>
@@ -1127,7 +972,7 @@
                       </div>
                     </div>
                     <div
-                      class="col-md-6 d-flex align-items-center ps-0 pe-0 me-0 ms-0"
+                      class="col-md-6 d-flex align-items-center ps-0 pe-0 me-0 ms-0 color_blue"
                     >
                       FEA SOLUTION FOR INDIAN EV STARTUP.
                     </div>
@@ -1135,7 +980,7 @@
                 </div>
                 <p></p>
 
-                <ul>
+                <ul class="color_blue">
                   <li>FEA SERVICES INCLUDE:</li>
                   <li>STRENGTH ANALYSIS - 1G, 2G</li>
                   <li>DYNAMIC ANALYSIS</li>
@@ -1149,58 +994,9 @@
         </div>
       </div>
     </div>
-    <style>
-      /* Define the border animation */
-      @keyframes border-move {
-        0% {
-          border-top: 5px solid transparent;
-          border-right: 5px solid transparent;
-          border-bottom: 5px solid transparent;
-          border-left: 5px solid white; /* Adjust the border color and opacity as needed */
-        }
-        25% {
-          border-top: 5px solid white;
-          border-right: 5px solid transparent;
-          border-bottom: 5px solid transparent;
-          border-left: 5px solid transparent;
-        }
-        50% {
-          border-top: 5px solid transparent;
-          border-right: 5px solid white;
-          border-bottom: 5px solid transparent;
-          border-left: 5px solid transparent;
-        }
-        75% {
-          border-top: 5px solid transparent;
-          border-right: 5px solid transparent;
-          border-bottom: 5px solid white;
-          border-left: 5px solid transparent;
-        }
-        100% {
-          border-top: 5px solid transparent;
-          border-right: 5px solid transparent;
-          border-bottom: 5px solid transparent;
-          border-left: 5px solid white; /* Adjust the border color and opacity as needed */
-        }
-      }
-
-      /* Apply the animation to the image */
-      .border-moving-image {
-        animation: border-move 4s linear infinite;
-      }
-      /* Define the initial state for the image */
-      .zoom-image {
-        transition: transform 0.3s ease; /* Add a smooth transition effect */
-      }
-
-      /* Apply the zoom effect on hover */
-      .zoom-image:hover {
-        transform: scale(1.05); /* Zoom in to 110% size on hover */
-      }
-    </style>
 
     <div class="container-fluid">
-      <div class="row" style="background-color: #6ec71d; color: white">
+      <div class="row bg_blue_text_white">
         <div class="col-md-12">
           <div class="container-fluid my-5">
             <div class="row">
@@ -1247,8 +1043,7 @@
 
                   <button
                     type="button"
-                    class="btn btn-primary ms-4 bg-white border-white font-weight-bold pe-5 ps-5"
-                    style="color: #6ec71d"
+                    class="btn btn-primary ms-4 bg-white border-white font-weight-bold pe-5 ps-5 color_blue"
                   >
                     Learn More
                   </button>
@@ -1261,19 +1056,17 @@
       </div>
     </div>
     <br /><br />
+    <style></style>
 
     <div class="container-fluid">
-      <div class="row" style="background-color: white; color: #6ec71d">
+      <div class="row light_white">
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <h3 class="text-center mt-4 mb-4">
+          <h3 class="text-center mt-4 mb-4 color_blue">
             Engine Power train Component <br />Analysis
           </h3>
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1282,35 +1075,31 @@
                 style="width: 300px; height: 300px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   FEA- Basic to Advance - Automotive
                 </h4>
                 <p class="card-text">
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Linear </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Nonlinear </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Buckling </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Thermal </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Themo-Mechncial </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Dynamic </ui>
                   </li>
                 </p>
                 <div class="d-grid">
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-block"
-                    style="background-color: #6ec71d; border: solid #6ec71d"
-                  >
+                  <button type="button" class="btn btn-primary btn-block">
                     Learn More
                   </button>
                 </div>
@@ -1320,15 +1109,12 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <h3 class="text-center mt-4 mb-4">
+          <h3 class="text-center mt-4 mb-4 color_blue">
             Industrial Meshing and <br />Analysis
           </h3>
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1337,35 +1123,31 @@
                 style="width: 300px; height: 300px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   FEA- Basic to Advance – All Domains
                 </h4>
                 <p class="card-text">
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Linear </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Nonlinear </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Buckling </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Thermal </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Themo-Mechncial </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Dynamic </ui>
                   </li>
                 </p>
                 <div class="d-grid">
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-block"
-                    style="background-color: #6ec71d; border: solid #6ec71d"
-                  >
+                  <button type="button" class="btn btn-primary btn-block">
                     Learn More
                   </button>
                 </div>
@@ -1374,15 +1156,12 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <h3 class="text-center mt-4 mb-4">
+          <h3 class="text-center mt-4 mb-4 color_blue">
             Industrial Fatigue Durability <br />Analysis
           </h3>
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1391,35 +1170,31 @@
                 style="width: 300px; height: 300px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   FEA and Fatigue – All <br />Domains
                 </h4>
                 <p class="card-text">
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Linear </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Nonlinear </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Buckling </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Thermal </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Themo-Mechncial </ui>
                   </li>
-                  <li style="color: #6ec71d">
+                  <li class="color_blue">
                     <ui> Dynamic </ui>
                   </li>
                 </p>
                 <div class="d-grid">
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-block"
-                    style="background-color: #6ec71d; border: solid #6ec71d"
-                  >
+                  <button type="button" class="btn btn-primary btn-block">
                     Learn More
                   </button>
                 </div>
@@ -1431,23 +1206,25 @@
         </div>
       </div>
     </div>
+    <style>
+      .bh_filter {
+        filter: drop-shadow(5px 5px 10px white);
+      }
+    </style>
 
     <div class="container-fluid">
-      <div class="row" style="background-color: #6ec71d; color: white">
+      <div class="row bg_blue_text_white">
         <div class="col-md-12 text-center mt-5">
-          <h1 class="text-center color_change">ONLINE INDUSTRY COURSE</h1>
+          <h1 class="text-center">ONLINE INDUSTRY COURSE</h1>
         </div>
         <div class="col-md-12">
           <div class="container-fluid my-4">
             <div class="row">
               <div class="col-lg-6 mt-3 mb-4">
                 <img
-                  class="w-100 h-100"
-                  style="filter: drop-shadow(5px 5px 10px white)"
+                  class="w-100 h-100 bh_filter"
                   src="assets/img/deepLearning/Torsional-stiffness.gif"
                 />
-
-                <!-- src="https://via.placeholder.com/824x552" -->
               </div>
               <br />
               <div class="col-lg-6">
@@ -1577,8 +1354,7 @@
                         <div class="col-md-12 text-center mt-4">
                           <button
                             type="button"
-                            class="btn btn-primary ms-4 bg-white border-white font-weight-bold pe-5 ps-5"
-                            style="color: #6ec71d"
+                            class="btn btn-primary ms-4 bg-white border-white font-weight-bold pe-5 ps-5 color_blue"
                           >
                             View All Courses
                           </button>
@@ -1603,32 +1379,10 @@
     <section class="section-work-data2 section">
       <div class="container-fluid" style="position: relative; height: 400px">
         <!-- Particles-js background -->
-        <div
-          id="particles-js"
-          style="
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            background-color: #6ec71d;
-          "
-        ></div>
+        <div id="particles-js" class="particles_js_design"></div>
 
         <!-- Responsive card -->
-        <div
-          class="card"
-          style="
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100%; /* Adjust the card width as needed */
-            background-color: #6ec71d;
-            border: 0;
-          "
-        >
+        <div class="card particles_js_card">
           <!-- Card content -->
           <div class="container">
             <div class="row text-center">
@@ -1723,7 +1477,7 @@
         width: 100%;
       }
     </style>
-    <div style="background-color: #fbf8f8">
+    <div class="light_white">
       <br />
       <br />
       <div class="container">
@@ -1771,11 +1525,11 @@
 
     <br /><br /><br /><br />
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 text-center mt-5">
           <h1 class="text-center color_change">INDUSTRY WE SERVE</h1>
-          <p class="container">
+          <p class="container bg_white_text_blue">
             Our Services. From conceptual design to virtuol product validation
             with extensive experience, we provides a complete range of product
             design & volidation Finite FEAl element analysis services.
@@ -1791,10 +1545,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1803,9 +1554,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
-                  Automotive
-                </h4>
+                <h4 class="card-title text-center color_blue">Automotive</h4>
               </div>
             </div>
           </div>
@@ -1813,10 +1562,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1825,7 +1571,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   Off Road Vehicles
                 </h4>
               </div>
@@ -1835,10 +1581,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1847,9 +1590,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
-                  Aerospace
-                </h4>
+                <h4 class="card-title text-center color_blue">Aerospace</h4>
               </div>
             </div>
           </div>
@@ -1857,10 +1598,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1869,9 +1607,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
-                  Tractor
-                </h4>
+                <h4 class="card-title text-center color_blue">Tractor</h4>
               </div>
             </div>
           </div>
@@ -1879,10 +1615,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1891,9 +1624,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
-                  Railways
-                </h4>
+                <h4 class="card-title text-center color_blue">Railways</h4>
               </div>
             </div>
           </div>
@@ -1901,10 +1632,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1913,7 +1641,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   Consumer Durable
                 </h4>
               </div>
@@ -1923,10 +1651,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1935,7 +1660,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   Industrial Parts
                 </h4>
               </div>
@@ -1945,10 +1670,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1957,7 +1679,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   Civil Engineering
                 </h4>
               </div>
@@ -1967,10 +1689,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -1979,7 +1698,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   Additive Manufacturing
                 </h4>
               </div>
@@ -1989,10 +1708,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -2001,7 +1717,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   Agricultural Machinery
                 </h4>
               </div>
@@ -2011,10 +1727,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -2023,7 +1736,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   Engine & Powertrain
                 </h4>
               </div>
@@ -2033,10 +1746,7 @@
         <div class="col-md-3 mt-3 mb-3">
           <div class="d-flex justify-content-center">
             <!-- Center horizontally -->
-            <div
-              class="card"
-              style="width: 400px; border-radius: 20px; border: solid #6ec71d"
-            >
+            <div class="card all_analysis_card">
               <br />
               <img
                 class="card-img-top mx-auto"
@@ -2045,7 +1755,7 @@
                 style="width: 250px; height: 250px"
               />
               <div class="card-body">
-                <h4 class="card-title text-center" style="color: #6ec71d">
+                <h4 class="card-title text-center color_blue">
                   Machinery Equipment
                 </h4>
               </div>
@@ -2058,7 +1768,7 @@
     <br /><br /><br />
     <div class="container-fluid">
       <div class="row text-center">
-        <div class="col-md-12" style="background-color: #6ec71d">
+        <div class="col-md-12" style="background-color: #075890">
           <h1>--this is blog page--</h1>
         </div>
       </div>
@@ -2091,11 +1801,6 @@
                     <button
                       type="button"
                       class="btn btn-primary ms-4 font-weight-bold pe-5 ps-5 m-1"
-                      style="
-                        color: white;
-                        background-color: #6ec71d;
-                        border: solid #6ec71d;
-                      "
                     >
                       View All Courses
                     </button>
@@ -2109,23 +1814,10 @@
       </div>
     </div>
     <br /><br /><br /><br />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
-      integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
     <div
       class="container-fluid"
-      style="background-color: #6ec71d; padding-left: 20px"
+      style="background-color: #075890; padding-left: 20px"
     >
       <div class="row">
         <div class="col-md-12">
@@ -2248,7 +1940,7 @@
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 text-center" style="background-color: #6ec71d">
+        <div class="col-md-12 text-center" style="background-color: #075890">
           <hr class="text-white me-0 ms-0 pe-0 ps-0" />
           <footer class="mt-3">
             <div class="footer_style text-white text-center container-fluid">

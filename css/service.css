@@ -1,0 +1,35 @@
+.blue_custom_color {
+  background-color: #075890;
+  border: solid #075890;
+  color: white;
+}
+.without_inner_color {
+  background-color: white;
+  border: solid #075890;
+  color: #075890;
+}
+.bg-img-1 {
+  background-image: url("assets/img/services/1.png");
+}
+
+.bg-img-2 {
+  background-image: url("assets/img/services/3.jpg");
+}
+
+.bg-img-3 {
+  background-image: url("assets/img/services/2.jpg");
+}
+
+.carousel-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.services_border_color {
+  filter: drop-shadow(5px 5px 10px white);
+  width: 93%;
+  height: 89%;
+  border: solid #075890;
+}
