@@ -10,7 +10,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .bg_img_blue_with_shadow {
-  filter: drop-shadow(5px 5px 10px #075890);
+  filter: drop-shadow(5px 5px 10px #fe9931);
 }
 .carousel_height {
   height: 700px;
@@ -22,7 +22,7 @@ font-family: 'Raleway', sans-serif;
   height: 185px !important;
 }
 .img_custom_filter {
-  filter: drop-shadow(5px 5px 10px white);
+  filter: drop-shadow(5px 5px 10px #fe9931);
 }
 
 .read_more_button_postion {
@@ -110,7 +110,7 @@ font-family: 'Raleway', sans-serif;
   left: 0;
   width: 100%;
   height: 2px; /* Adjust the thickness of the underline here */
-  background-color: #075890; /* Adjust the color of the underline here */
+  background-color: #fe9931; /* Adjust the color of the underline here */
   transform: scaleX(0); /* Initially, the underline is invisible */
   transform-origin: bottom left;
   transition: transform 0.3s ease-in-out;
@@ -141,7 +141,7 @@ font-family: 'Raleway', sans-serif;
   border-top-left-radius: 10px 10px;
   border-bottom-left-radius: 50px 50px;
   border-bottom-right-radius: 5px 5px;
-  box-shadow: 2px 2px 15px 2px #075890;
+  box-shadow: 2px 2px 15px 2px #fe9931;
   transform: translateY(-20px);
   cursor: pointer;
 }
@@ -165,7 +165,7 @@ font-family: 'Raleway', sans-serif;
   .button:hover {
       /* transition: 0.8s ease; */
       border-color: white;
-      background-color: #075890;
+      background-color: #fe9931;
       color: white;
       font-size: 14px;
   }
@@ -205,7 +205,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .flip-card-front {
-  background-color: #075890;
+  background-color: #fe9931;
   color: black;
 }
 
@@ -214,7 +214,7 @@ font-family: 'Raleway', sans-serif;
   color: white;
   transform: rotateY(180deg);
   border-style: solid;
-  border-color: #757678;
+  border-color: #fe9931;
 }
 .float_card {
   position: relative;
@@ -250,7 +250,7 @@ html {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: white;
+  background: #fe9931;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -265,13 +265,13 @@ html {
   justify-content: flex-end;
 }
 .wrapper .row section {
-  background: #fff;
+  background: #fe9931;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
   position: relative;
   border-radius: 66px;
-  border: solid white;
+  border: solid #fe9931;
 }
 .wrapper .row section::before {
   position: absolute;
@@ -372,13 +372,13 @@ html {
 }
 
 .bg_blue_text_white {
-  background-color: #075890;
+  background-color: #fe9931;
   /* #0866a8 */
   color: white;
 }
 .bg_white_text_blue {
   background-color: white;
-  color: #075890;
+  color: #fe9931;
 }
 
 .point-list {
@@ -437,7 +437,7 @@ html {
 }
 
 .button {
-  background-color: #075890;
+  background-color: #fe9931;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -448,7 +448,7 @@ html {
 
 
 .boder_color_blue {
-  border: solid #075890;
+  border: solid #fe9931;
   border-radius: 10px;
 }
 
@@ -459,7 +459,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #075890;
+  background-color: #fe9931;
 }
 .particles_js_card {
   position: absolute;
@@ -467,7 +467,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%; /* Adjust the card width as needed */
-  background-color: #075890;
+  background-color: #fe9931;
   border: 0;
 }
 .common-numbers {
@@ -481,7 +481,7 @@ html {
   border-color: #757678;
 }
 .color_blue {
-  color: #075890;
+  color: #fe9931;
 }
 
 .circular-container {
@@ -495,7 +495,7 @@ html {
   /* background-image: url("/assets/img/ProjectSuccessStory/12.png"); */
   background-size: cover;
   background-position: center;
-  border: solid #075890;
+  border: solid white;
 }
 
 .circular-image {
@@ -505,7 +505,7 @@ html {
 }
 
 .light_white {
-  background-color: #075890;
+  background-color: #fe9931;
 }
 @keyframes border-move {
   0% {
@@ -556,7 +556,7 @@ html {
 .all_analysis_card {
   width: 400px;
   border-radius: 20px;
-  border: solid #075890;
+  border: solid #fe9931;
 }
 
 .count_card {
@@ -578,7 +578,7 @@ html {
 }
 
 .col_card_postion {
-  background-color: #075890;
+  background-color: #fe9931;
   margin-top: 35px;
   opacity: 0.9
 }
@@ -599,4 +599,11 @@ html {
       height: auto;
   }
 
+}
+
+.under_line_with_color {
+  text-decoration: underline #fe9931;
+  text-decoration-thickness: 2px;
+  margin-bottom: 5px;
+  text-underline-offset: 4px;
 }
