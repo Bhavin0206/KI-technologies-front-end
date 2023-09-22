@@ -1,12 +1,22 @@
 .blue_custom_color {
-  background-color: #075890;
-  border: solid #075890;
+  background-color: #fe9931;
+  border: solid #fe9931;
+  color: white;
+}
+.blue_custom_color:hover {
+  background-color: #fe9931;
+  border: solid #fe9931;
   color: white;
 }
 .without_inner_color {
   background-color: white;
-  border: solid #075890;
-  color: #075890;
+  border: solid #fe9931;
+  color: #fe9931;
+}
+.without_inner_color:hover {
+  background-color: #fe9931;
+  border: solid #fe9931;
+  color: white;
 }
 .bg-img-1 {
   background-image: url("assets/img/services/1.png");
